@@ -38,7 +38,7 @@ public class Bamboo
     private void setup(final FMLCommonSetupEvent event)
     {
         // some preinit code
-        LOGGER.info("HELLO FROM PREINIT");
+        LOGGER.info("HELLO FROM PREINITITITITITITITITI");
         LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
     }
 
