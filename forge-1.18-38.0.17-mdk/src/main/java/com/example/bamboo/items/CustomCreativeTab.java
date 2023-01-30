@@ -7,7 +7,7 @@ public class CustomCreativeTab {
     public static final CreativeModeTab BambooTab = new CreativeModeTab("bambooTab") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModsItems.bamb.get());
+            return new ItemStack(ModsItems.getBamb().get());
         }
     };
 }
