@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52860961-0417-4abf-bc2c-546299deb32c" name="Changes" comment="" />
+    <list default="true" id="52860961-0417-4abf-bc2c-546299deb32c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/forge-1.18-38.0.17-mdk/src/main/java/com/example/items/banbook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge-1.18-38.0.17-mdk/src/main/java/com/example/bamboo/Bamboo.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge-1.18-38.0.17-mdk/src/main/java/com/example/bamboo/Bamboo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +24,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2L3OsICVq5muCQCTQoiFoyJrvCi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
@@ -30,7 +37,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Damien/Documents/!Programme/Java/Minecraft/test",
+    "last_opened_file_path": "C:/Users/Damien/Documents/!Programme/Java/Minecraft/modMinecraft/ModMinecraft",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",

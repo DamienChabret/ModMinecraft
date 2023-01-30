@@ -33,6 +33,9 @@ public class Bamboo
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        // ====================> TEST CREATIONS ITEMS
+        BanBook.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 
     private void setup(final FMLCommonSetupEvent event)
