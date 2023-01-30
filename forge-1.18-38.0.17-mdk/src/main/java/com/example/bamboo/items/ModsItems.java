@@ -17,10 +17,10 @@ public class ModsItems {
 
     // Ajout d'item
     private static final RegistryObject<Item> bambook = items.register("bambook",
-            () -> new Item(new Item.Properties().tab(CustomCreativeTab.BambooTab))); // Créer l'item et l'ajoute à la liste des items de décoration
+            () -> new Item(new Item.Properties().tab(CustomCreativeTab.getBambooTab()))); // Créer l'item et l'ajoute à la liste des items de décoration
 
     private static final RegistryObject<Item> bamb = items.register("bamboo",
-            () -> new Item(new Item.Properties().tab(CustomCreativeTab.BambooTab))); // Créer l'item et l'ajoute à la liste des items de décoration
+            () -> new Item(new Item.Properties().tab(CustomCreativeTab.getBambooTab()))); // Créer l'item et l'ajoute à la liste des items de décoration
 
 
     /**
