@@ -1,4 +1,4 @@
-package com.example.items;
+package com.example.bamboo.items;
 
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;

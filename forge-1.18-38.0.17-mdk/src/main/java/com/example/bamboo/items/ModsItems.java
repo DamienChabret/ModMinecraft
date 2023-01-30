@@ -1,7 +1,6 @@
-package com.example.items;
+package com.example.bamboo.items;
 
 import com.example.bamboo.Bamboo;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -10,11 +9,11 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModsItems {
 
-    // Creer nouveau item
+    // liste d'items
     public static final DeferredRegister<Item> items = DeferredRegister.create(ForgeRegistries.ITEMS, Bamboo.ID_MOD);
 
 
-    // Création de l'item
+    // Ajout d'item
     public static final RegistryObject<Item> bambook = items.register("bambook",
             () -> new Item(new Item.Properties().tab(CustomCreativeTab.BambooTab))); // Créer l'item et l'ajoute à la liste des items de décoration
 
