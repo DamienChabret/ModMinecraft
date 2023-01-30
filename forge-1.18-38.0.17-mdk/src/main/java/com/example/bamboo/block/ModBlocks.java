@@ -38,11 +38,10 @@ public class ModBlocks {
 
     /**
      * Ajoute un nouveau blocks
-     * @param name 
-     * @param block
-     * @param tab
-     * @return
-     * @param <T>
+     * @param name nom du block
+     * @param block type de block
+     * @param tab tabulation auquel appartient le bloc
+     * @return un bloc
      */
     private static <T extends  Block> RegistryObject<T> RegisterBlock(String name, Supplier<T> block, CreativeModeTab tab){
         RegistryObject<T> toReturn = blocks.register(name,block); // enregistre le block
@@ -52,11 +51,10 @@ public class ModBlocks {
 
     /**
      * Enregistre le block comme item
-     * @param name
-     * @param block
-     * @param tab
-     * @return
-     * @param <T>
+     * @param name nom du block
+     * @param block type de block
+     * @param tab tabulation auquel appartient le bloc
+     * @return un bloc
      */
     private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block, CreativeModeTab tab){
         return ModsItems.getItems().register(name, () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
