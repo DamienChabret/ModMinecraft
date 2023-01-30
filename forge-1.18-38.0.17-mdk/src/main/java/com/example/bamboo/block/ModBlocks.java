@@ -8,6 +8,8 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.DropperBlock;
+import net.minecraft.world.level.block.entity.DropperBlockEntity;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -31,18 +33,12 @@ public class ModBlocks {
     public static final RegistryObject<Block> bambou_block = RegisterBlock("bambou_block", // Nom
         () -> new Block(BlockBehaviour.Properties.of(Material.CACTUS)), // Indique même proprieté qu'un autre block
         CustomCreativeTab.getBambooTab()); // Indique tab dans lequel il apparait
-    // DROP
-    /*
-    public static final RegistryObject<Block> bambou_drop = RegisterBlock("bambou_block", // Nom
-            () -> new Experience(BlockBehaviour.Properties.of(Material.CACTUS), UniformInt.of(3,7)), // Indique même proprieté qu'un autre block
-            CustomCreativeTab.BambooTab); // Indique tab dans lequel il apparait
-     */
      // ===========================================
 
 
     /**
      * Ajoute un nouveau blocks
-     * @param name
+     * @param name 
      * @param block
      * @param tab
      * @return
