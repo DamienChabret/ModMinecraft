@@ -1,5 +1,6 @@
 package com.example.bamboo.items;
 
+import com.example.bamboo.block.ModBlocks;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 
@@ -7,7 +8,7 @@ public class CustomCreativeTab {
     private static final CreativeModeTab bambooTab = new CreativeModeTab("bambooTab") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModsItems.getBamb().get());
+            return new ItemStack(ModBlocks.bamb.get());
         }
     };
 

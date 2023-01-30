@@ -28,9 +28,15 @@ public class ModBlocks {
 
     // =================== LISTE DES BLOCKS DU JEU
     // BLOCK
+
+
+    public static final RegistryObject<Block> bamb = RegisterBlock("bamboo",
+            () -> new Block(BlockBehaviour.Properties.of(Material.CACTUS)),
+            CustomCreativeTab.getBambooTab());
+
     public static final RegistryObject<Block> bambou_block = RegisterBlock("bambou_block", // Nom
         () -> new Block(BlockBehaviour.Properties.of(Material.CACTUS)), // Indique même proprieté qu'un autre block
-        CustomCreativeTab.BambooTab); // Indique tab dans lequel il apparait
+        CustomCreativeTab.getBambooTab()); // Indique tab dans lequel il apparait
     // DROP
     /*
     public static final RegistryObject<Block> bambou_drop = RegisterBlock("bambou_block", // Nom
