@@ -15,7 +15,8 @@ public class ModsItems {
 
 
     // Création de l'item
-    public static final RegistryObject<Item> bambook = items.register("bambook",
+    private static String nomItem = "bambook"; // Nom de l'item
+    public static final RegistryObject<Item> bambook = items.register(nomItem,
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD))); // Créer l'item et l'ajoute à la liste des items de décoration
 
     public static void register(IEventBus eventBus){

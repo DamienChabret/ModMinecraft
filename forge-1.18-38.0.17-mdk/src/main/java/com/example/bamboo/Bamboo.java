@@ -1,5 +1,6 @@
 package com.example.bamboo;
 
+import com.example.items.ModsItems;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -35,7 +36,7 @@ public class Bamboo
         MinecraftForge.EVENT_BUS.register(this);
 
         // ====================> TEST CREATIONS ITEMS
-        BanBook.register(FMLJavaModLoadingContext.get().getModEventBus());
+        ModsItems.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 
     private void setup(final FMLCommonSetupEvent event)
