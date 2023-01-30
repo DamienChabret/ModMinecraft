@@ -1,5 +1,6 @@
 package com.example.bamboo;
 
+import com.example.bamboo.block.ModBlocks;
 import com.example.bamboo.items.ModsItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -26,8 +27,10 @@ public class Bamboo
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
-        // ====================> TEST CREATIONS ITEMS
+        // Creations items
         ModsItems.register(FMLJavaModLoadingContext.get().getModEventBus());
+        // Créations blocks
+        ModBlocks.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 
     private void setup(final FMLCommonSetupEvent event)
