@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube_all",
+  "textures" : {
+    "up": "bamboo:block/bamboo_grass_top",
+    "down": "bamboo:block/dirt",
+    "north": "bamboo:block/bamboo_grass_side",
+    "west": "bamboo:block/bamboo_grass_side",
+    "south": "bamboo:block/bamboo_grass_side",
+    "east": "bamboo:block/bamboo_grass_side"
+  }
+}

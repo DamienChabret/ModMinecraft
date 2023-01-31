@@ -1,7 +1,7 @@
 {
   "item.bamboo.bambook" : "Bam-book",
-  "block.bamboo.bamboo" : "Bambou",
   "itemGroup.bambooTab" : "Bambou !",
 
-  "block.bamboo.bambou_block": "Bloc de bambou"
+  "block.bamboo.bambou_block": "Bloc de bambou",
+  "block.bamboo.bamboo_grass" : "Terre de bambou"
 }
